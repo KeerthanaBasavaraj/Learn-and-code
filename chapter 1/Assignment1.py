@@ -9,8 +9,8 @@ def main():
     max_dice_number=6
     roll_again=True
     while roll_again:
-        roll_dice=input("Ready to roll? Enter Q to Quit")
-        if roll_dice.lower() !="q":
+        roll_dice_input=input("Ready to roll? Enter Q to Quit")
+        if roll_dice_input.lower() !="q":
             number_rolled=roll_dice(max_dice_number)
             print("You have rolled a",number_rolled)
         else:
